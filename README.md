@@ -21,7 +21,9 @@ A production-grade **ETL pipeline** built with **Azure Data Factory (ADF)** that
 
 ## Overview
 
-![ADF Dataflow Overview & Valid Data Preview](images/Screenshot_2026-04-27_041533.png)
+<p align="center">
+  <img src="images/AzureScreenshot(2).png" width="80%">
+</p>
 
 This project implements a fully automated sales data pipeline using **Azure Data Factory Mapping Data Flows**. It processes raw delimited sales records through a series of transformations — type standardization, null handling, column cleaning, date formatting, and data quality assessment — before routing each record to either a validated sales output or a flagged error table.
 
@@ -70,7 +72,9 @@ Ingests raw data from `DelimitedText2`. Source columns include:
 
 ### 2. `StandardizeTypes`
 
-![StandardizeTypes Derived Columns Settings](images/Screenshot_2026-04-27_042431.png)
+<p align="center">
+  <img src="images/AzureScreenshot(1).png" width="80%">
+</p>
 
 Casts all 8 columns to their appropriate types using `toString()` expressions to ensure downstream expressions operate on consistent types.
 
@@ -82,8 +86,6 @@ Casts all 8 columns to their appropriate types using `toString()` expressions to
 | `order_date` | `toString(order_date)` |
 
 ### 3. `CleanColumns`
-
-![CleanColumns Expression Builder - customer_id normalization](images/Screenshot_2026-04-27_042413.png)
 
 Normalizes customer IDs into a canonical `customer N` format, and replaces blank or null values with `'Unknown'` or `'Others'` for categorical fields.
 
@@ -102,7 +104,9 @@ iif(
 
 ### 4. `HandleNulls`
 
-![HandleNulls Derived Columns Settings](images/Screenshot_2026-04-27_042400.png)
+<p align="center">
+  <img src="images/AzureScreenshot(9).png" width="80%">
+</p>
 
 Applies 8 derived column expressions to safely replace null/blank values across all columns:
 
@@ -118,8 +122,6 @@ Applies 8 derived column expressions to safely replace null/blank values across 
 Standardizes `order_date` to a consistent date format for downstream compatibility.
 
 ### 6. `ValidData` (Conditional Split)
-
-![ValidData Conditional Split Expression](images/Screenshot_2026-04-27_042329.png)
 
 Routes records based on a multi-condition expression:
 
@@ -142,7 +144,9 @@ Invalid records pass through the `DataQualityScore` derived column transformatio
 
 ### `Data Quality Score` (integer, 0–7)
 
-![Data Quality Score Expression](images/Screenshot_2026-04-27_042303.png)
+<p align="center">
+  <img src="images/AzureScreenshot(6).png" width="80%">
+</p>
 
 Each of the 7 fields contributes 1 point if it passes validation:
 
@@ -158,7 +162,9 @@ iif(toDecimal(`Total Amount`) > 0, 1, 0)
 
 ### `Score` (string, percentage)
 
-![Score Percentage Expression](images/Screenshot_2026-04-27_042315.png)
+<p align="center">
+  <img src="images/AzureScreenshot(7).png" width="80%">
+</p>
 
 Human-readable percentage representation:
 
@@ -171,8 +177,6 @@ toString(round((... sum of 7 checks ...) / 7 * 100, 0)) + '%'
 ---
 
 ## Error Handling & Routing
-
-![ErrorHandling Expression Builder - error_reason](images/Screenshot_2026-04-27_042251.png)
 
 The `ErrorHandling` derived column appends an `error_reason` field to each invalid record using a priority-ordered `iif` chain:
 
@@ -215,7 +219,9 @@ All flagged records are written to `ErrorTable` → `FinalSalesOutput`.
 
 ## Execution Results
 
-![Pipeline Run - Sink Results](images/Screenshot_2026-04-27_042227.png)
+<p align="center">
+  <img src="images/AzureScreenshot(4).png" width="80%">
+</p>
 
 From the latest pipeline run (`pipeline_V2`, 27/04/2026 04:22:17 EST):
 
@@ -230,7 +236,9 @@ From the latest pipeline run (`pipeline_V2`, 27/04/2026 04:22:17 EST):
 
 ### Sample Valid Output (SalesOutput)
 
-![SalesOutput Data Preview](images/Screenshot_2026-04-27_041533.png)
+<p align="center">
+  <img src="images/AzureScreenshot(2).png" width="80%">
+</p>
 
 | order_id | order_date | customer_id | product | category | quantity | unit_price | Total Amount |
 |---|---|---|---|---|---|---|---|
@@ -240,7 +248,9 @@ From the latest pipeline run (`pipeline_V2`, 27/04/2026 04:22:17 EST):
 
 ### Sample Invalid Output (ErrorTable)
 
-![ErrorTable Data Preview](images/Screenshot_2026-04-27_041600.png)
+<p align="center">
+  <img src="images/AzureScreenshot(3).png" width="80%">
+</p>
 
 | order_id | order_date | customer_id | product | Data Quality Score | Score | error_reason |
 |---|---|---|---|---|---|---|

@@ -1,0 +1,206 @@
+103,,Unknown,Headphones,Others,2,-100,-200,4,57.0%,Invalid Date
+93,2024-01-01,Unknown,Phone,electronics,-1,-100,100,3,43.0%,Missing Customer Name
+15,2024-01-01,Unknown,Phone,electronics,3,200,600,5,71.0%,Missing Customer Name
+107,,customer 1,Headphones,electronics,3,1000,3000,6,86.0%,Invalid Date
+72,,customer 4,Phone,Others,1,200,200,6,86.0%,Invalid Date
+21,2024-03-03,customer 4,Headphones,electronics,0,200,0,5,71.0%,Invalid Quantity
+103,,Unknown,Headphones,electronics,-1,-100,100,3,43.0%,Invalid Date
+122,,Unknown,Monitor,electronics,0,300,0,4,57.0%,Invalid Date
+88,,Unknown,Headphones,electronics,1,1000,1000,5,71.0%,Invalid Date
+117,,Unknown,Tablet,electronics,0,-100,0,3,43.0%,Invalid Date
+100,2024-01-01,Unknown,Unknown,Others,0,300,0,3,43.0%,Missing Customer Name
+104,,Unknown,Laptop,electronics,-1,Unknown,0,3,43.0%,Invalid Date
+131,2024-01-01,Unknown,Laptop,Electronics,0,500,0,4,57.0%,Missing Customer Name
+,,Unknown,Laptop,electronics,3,500,1500,4,57.0%,Missing Order ID
+53,2024-04-05,Unknown,Monitor,electronics,0,-100,0,3,43.0%,Missing Customer Name
+2,2024-04-05,customer 1,Headphones,electronics,0,50,0,5,71.0%,Invalid Quantity
+88,2024-03-03,customer 1,Monitor,Others,0,1000,0,5,71.0%,Invalid Quantity
+130,2024-01-01,Unknown,Monitor,electronics,3,-100,-300,4,57.0%,Missing Customer Name
+21,2024-03-03,Unknown,Monitor,electronics,0,-100,0,3,43.0%,Missing Customer Name
+58,2024-03-03,customer 4,Unknown,electronics,2,300,600,5,71.0%,Missing Product
+22,2024-03-03,Unknown,Tablet,electronics,0,Unknown,0,3,43.0%,Missing Customer Name
+89,,Unknown,Monitor,electronics,-1,50,-50,4,57.0%,Invalid Date
+49,2024-01-01,customer 1,Unknown,electronics,1,1000,1000,5,71.0%,Missing Product
+59,,customer 1,Phone,electronics,0,200,0,5,71.0%,Invalid Date
+15,2024-03-03,Unknown,Tablet,Others,2,Unknown,0,4,57.0%,Missing Customer Name
+51,2024-01-01,Unknown,Monitor,Electronics,1,Unknown,0,4,57.0%,Missing Customer Name
+108,,Unknown,Laptop,electronics,2,300,600,5,71.0%,Invalid Date
+55,,customer 4,Phone,electronics,0,500,0,5,71.0%,Invalid Date
+131,2024-01-01,Unknown,Unknown,electronics,0,300,0,3,43.0%,Missing Customer Name
+51,2024-03-03,Unknown,Phone,electronics,0,-100,0,3,43.0%,Missing Customer Name
+135,2024-01-01,customer 4,Tablet,electronics,1,500,500,6,86.0%,Valid Record
+21,2024-04-05,Unknown,Monitor,Others,1,50,50,5,71.0%,Missing Customer Name
+73,,Unknown,Monitor,Electronics,1,1000,1000,5,71.0%,Invalid Date
+18,,Unknown,Laptop,electronics,1,Unknown,0,4,57.0%,Invalid Date
+132,,customer 1,Unknown,Electronics,1,Unknown,0,4,57.0%,Invalid Date
+89,2024-03-03,Unknown,Laptop,Others,2,50,100,5,71.0%,Missing Customer Name
+60,2024-04-05,customer 4,Phone,electronics,0,500,0,5,71.0%,Invalid Quantity
+14,2024-01-01,Unknown,Laptop,electronics,0,Unknown,0,3,43.0%,Missing Customer Name
+9,,Unknown,Tablet,Electronics,3,200,600,5,71.0%,Invalid Date
+90,2024-01-01,Unknown,Monitor,Electronics,3,1000,3000,5,71.0%,Missing Customer Name
+53,,Unknown,Phone,electronics,0,1000,0,4,57.0%,Invalid Date
+130,2024-01-01,Unknown,Laptop,electronics,0,Unknown,0,3,43.0%,Missing Customer Name
+84,2024-04-05,customer 1,Unknown,electronics,3,300,900,5,71.0%,Missing Product
+92,,Unknown,Tablet,electronics,3,Unknown,0,4,57.0%,Invalid Date
+111,2024-03-03,Unknown,Tablet,Others,2,300,600,5,71.0%,Missing Customer Name
+8,2024-01-01,customer 4,Laptop,Electronics,-1,Unknown,0,4,57.0%,Invalid Quantity
+35,2024-01-01,Unknown,Monitor,Electronics,0,200,0,4,57.0%,Missing Customer Name
+81,,customer 4,Laptop,Electronics,1,-100,-100,5,71.0%,Invalid Date
+50,2024-03-03,Unknown,Phone,Others,-1,1000,-1000,4,57.0%,Missing Customer Name
+104,2024-03-03,customer 4,Laptop,Electronics,0,Unknown,0,4,57.0%,Invalid Quantity
+132,2024-04-05,Unknown,Tablet,Others,3,200,600,5,71.0%,Missing Customer Name
+2,2024-03-03,customer 1,Laptop,electronics,-1,300,-300,5,71.0%,Invalid Quantity
+134,2024-03-03,customer 4,Monitor,electronics,0,300,0,5,71.0%,Invalid Quantity
+54,2024-03-03,customer 4,Unknown,Electronics,0,1000,0,4,57.0%,Missing Product
+106,,customer 1,Headphones,Electronics,1,50,50,6,86.0%,Invalid Date
+4,2024-04-05,Unknown,Laptop,electronics,1,Unknown,0,4,57.0%,Missing Customer Name
+54,2024-01-01,Unknown,Monitor,electronics,0,500,0,4,57.0%,Missing Customer Name
+146,,customer 4,Monitor,Others,0,300,0,5,71.0%,Invalid Date
+44,2024-01-01,customer 1,Unknown,electronics,3,-100,-300,4,57.0%,Missing Product
+14,2024-04-05,Unknown,Tablet,electronics,1,-100,-100,4,57.0%,Missing Customer Name
+95,,customer 1,Monitor,electronics,0,300,0,5,71.0%,Invalid Date
+48,2024-04-05,Unknown,Monitor,electronics,-1,50,-50,4,57.0%,Missing Customer Name
+15,2024-03-03,Unknown,Monitor,Others,0,50,0,4,57.0%,Missing Customer Name
+40,,Unknown,Monitor,Others,2,200,400,5,71.0%,Invalid Date
+82,2024-03-03,customer 1,Phone,Electronics,2,-100,-200,5,71.0%,Invalid Unit Price
+111,2024-01-01,customer 4,Phone,Others,0,200,0,5,71.0%,Invalid Quantity
+53,2024-01-01,Unknown,Tablet,electronics,3,-100,-300,4,57.0%,Missing Customer Name
+24,,customer 1,Laptop,electronics,2,Unknown,0,5,71.0%,Invalid Date
+124,,customer 4,Monitor,Electronics,1,Unknown,0,5,71.0%,Invalid Date
+41,2024-04-05,customer 1,Unknown,Electronics,0,500,0,4,57.0%,Missing Product
+15,2024-04-05,Unknown,Laptop,electronics,0,Unknown,0,3,43.0%,Missing Customer Name
+45,2024-03-03,customer 1,Unknown,Others,0,500,0,4,57.0%,Missing Product
+65,,customer 1,Laptop,electronics,-1,Unknown,0,4,57.0%,Invalid Date
+89,2024-01-01,customer 1,Tablet,Others,0,1000,0,5,71.0%,Invalid Quantity
+71,2024-04-05,Unknown,Monitor,electronics,-1,Unknown,0,3,43.0%,Missing Customer Name
+9,2024-04-05,customer 1,Monitor,electronics,0,200,0,5,71.0%,Invalid Quantity
+88,2024-01-01,customer 4,Headphones,Others,0,300,0,5,71.0%,Invalid Quantity
+129,2024-04-05,Unknown,Unknown,electronics,0,200,0,3,43.0%,Missing Customer Name
+136,2024-03-03,Unknown,Laptop,Electronics,-1,300,-300,4,57.0%,Missing Customer Name
+63,,customer 1,Laptop,electronics,-1,50,-50,5,71.0%,Invalid Date
+139,2024-01-01,Unknown,Phone,Electronics,0,200,0,4,57.0%,Missing Customer Name
+81,,Unknown,Headphones,Electronics,2,50,100,5,71.0%,Invalid Date
+123,2024-01-01,Unknown,Phone,electronics,3,1000,3000,5,71.0%,Missing Customer Name
+5,2024-03-03,Unknown,Unknown,Electronics,-1,Unknown,0,2,29.0%,Missing Customer Name
+41,,customer 1,Unknown,electronics,-1,200,-200,4,57.0%,Invalid Date
+28,2024-01-01,Unknown,Tablet,electronics,2,50,100,5,71.0%,Missing Customer Name
+135,,Unknown,Tablet,electronics,3,300,900,5,71.0%,Invalid Date
+72,,Unknown,Phone,Others,3,500,1500,5,71.0%,Invalid Date
+12,2024-03-03,Unknown,Headphones,Others,0,Unknown,0,3,43.0%,Missing Customer Name
+33,,customer 4,Laptop,electronics,-1,500,-500,5,71.0%,Invalid Date
+48,,customer 4,Unknown,electronics,3,300,900,5,71.0%,Invalid Date
+62,2024-03-03,Unknown,Headphones,electronics,0,Unknown,0,3,43.0%,Missing Customer Name
+37,,Unknown,Monitor,electronics,2,Unknown,0,4,57.0%,Invalid Date
+99,,customer 1,Unknown,electronics,0,50,0,4,57.0%,Invalid Date
+104,,Unknown,Unknown,electronics,0,50,0,3,43.0%,Invalid Date
+35,2024-01-01,Unknown,Tablet,Others,2,200,400,5,71.0%,Missing Customer Name
+101,2024-01-01,customer 4,Laptop,electronics,0,200,0,5,71.0%,Invalid Quantity
+131,2024-01-01,Unknown,Laptop,Electronics,3,-100,-300,4,57.0%,Missing Customer Name
+1,2024-03-03,customer 4,Monitor,electronics,-1,-100,100,4,57.0%,Invalid Quantity
+142,,customer 4,Unknown,electronics,0,500,0,4,57.0%,Invalid Date
+103,,customer 4,Phone,electronics,0,200,0,5,71.0%,Invalid Date
+27,2024-03-03,Unknown,Tablet,Others,2,50,100,5,71.0%,Missing Customer Name
+137,,Unknown,Tablet,Electronics,1,300,300,5,71.0%,Invalid Date
+15,2024-01-01,Unknown,Unknown,Others,1,50,50,4,57.0%,Missing Customer Name
+90,2024-04-05,customer 4,Headphones,Others,-1,500,-500,5,71.0%,Invalid Quantity
+42,,Unknown,Phone,electronics,3,-100,-300,4,57.0%,Invalid Date
+124,,customer 4,Unknown,electronics,-1,50,-50,4,57.0%,Invalid Date
+63,2024-01-01,Unknown,Phone,electronics,-1,1000,-1000,4,57.0%,Missing Customer Name
+96,,Unknown,Phone,Others,-1,500,-500,4,57.0%,Invalid Date
+52,2024-04-05,Unknown,Phone,Others,-1,-100,100,3,43.0%,Missing Customer Name
+96,,Unknown,Unknown,electronics,0,300,0,3,43.0%,Invalid Date
+132,2024-01-01,customer 1,Tablet,Others,0,-100,0,4,57.0%,Invalid Quantity
+143,,Unknown,Tablet,electronics,2,Unknown,0,4,57.0%,Invalid Date
+29,2024-03-03,Unknown,Phone,electronics,1,1000,1000,5,71.0%,Missing Customer Name
+36,,Unknown,Headphones,electronics,-1,500,-500,4,57.0%,Invalid Date
+13,,customer 1,Laptop,Electronics,2,300,600,6,86.0%,Invalid Date
+71,,customer 4,Unknown,electronics,1,1000,1000,5,71.0%,Invalid Date
+86,2024-03-03,customer 4,Laptop,Others,0,-100,0,4,57.0%,Invalid Quantity
+28,2024-01-01,Unknown,Headphones,electronics,3,1000,3000,5,71.0%,Missing Customer Name
+66,,customer 1,Unknown,electronics,0,500,0,4,57.0%,Invalid Date
+45,2024-04-05,Unknown,Phone,electronics,0,200,0,4,57.0%,Missing Customer Name
+62,,Unknown,Tablet,Electronics,1,1000,1000,5,71.0%,Invalid Date
+134,,Unknown,Laptop,electronics,0,Unknown,0,3,43.0%,Invalid Date
+28,2024-01-01,Unknown,Monitor,electronics,3,1000,3000,5,71.0%,Missing Customer Name
+28,,customer 4,Monitor,electronics,1,-100,-100,5,71.0%,Invalid Date
+108,,customer 4,Headphones,Others,0,-100,0,4,57.0%,Invalid Date
+44,2024-03-03,customer 4,Phone,electronics,0,300,0,5,71.0%,Invalid Quantity
+84,,Unknown,Laptop,electronics,0,-100,0,3,43.0%,Invalid Date
+75,2024-01-01,customer 1,Laptop,Others,0,500,0,5,71.0%,Invalid Quantity
+128,2024-04-05,Unknown,Headphones,Electronics,-1,500,-500,4,57.0%,Missing Customer Name
+92,,customer 1,Headphones,electronics,0,200,0,5,71.0%,Invalid Date
+129,,customer 1,Monitor,electronics,1,200,200,6,86.0%,Invalid Date
+121,,customer 4,Phone,electronics,1,500,500,6,86.0%,Invalid Date
+27,2024-04-05,Unknown,Unknown,Others,0,Unknown,0,2,29.0%,Missing Customer Name
+121,,Unknown,Monitor,electronics,3,200,600,5,71.0%,Invalid Date
+116,2024-04-05,Unknown,Phone,Others,0,300,0,4,57.0%,Missing Customer Name
+3,,Unknown,Monitor,Electronics,1,-100,-100,4,57.0%,Invalid Date
+103,2024-03-03,customer 4,Unknown,Others,0,500,0,4,57.0%,Missing Product
+137,,Unknown,Tablet,Electronics,1,200,200,5,71.0%,Invalid Date
+62,2024-04-05,Unknown,Tablet,Others,2,500,1000,5,71.0%,Missing Customer Name
+51,,Unknown,Tablet,electronics,-1,50,-50,4,57.0%,Invalid Date
+59,,Unknown,Tablet,Electronics,1,1000,1000,5,71.0%,Invalid Date
+118,,Unknown,Laptop,electronics,0,-100,0,3,43.0%,Invalid Date
+96,2024-03-03,Unknown,Tablet,electronics,2,500,1000,5,71.0%,Missing Customer Name
+113,2024-01-01,customer 4,Unknown,Others,1,1000,1000,5,71.0%,Missing Product
+52,,Unknown,Headphones,Electronics,-1,1000,-1000,4,57.0%,Invalid Date
+12,,Unknown,Laptop,electronics,1,-100,-100,4,57.0%,Invalid Date
+39,,Unknown,Tablet,electronics,2,500,1000,5,71.0%,Invalid Date
+130,2024-04-05,Unknown,Tablet,electronics,3,50,150,5,71.0%,Missing Customer Name
+131,,Unknown,Tablet,Others,0,Unknown,0,3,43.0%,Invalid Date
+113,,customer 1,Monitor,electronics,3,-100,-300,5,71.0%,Invalid Date
+81,2024-04-05,Unknown,Phone,Electronics,2,200,400,5,71.0%,Missing Customer Name
+2,,Unknown,Tablet,electronics,1,1000,1000,5,71.0%,Invalid Date
+130,,customer 1,Monitor,Others,3,Unknown,0,5,71.0%,Invalid Date
+54,2024-01-01,Unknown,Monitor,electronics,3,-100,-300,4,57.0%,Missing Customer Name
+87,,customer 1,Phone,Electronics,-1,300,-300,5,71.0%,Invalid Date
+126,2024-04-05,customer 4,Monitor,Others,0,200,0,5,71.0%,Invalid Quantity
+130,2024-01-01,Unknown,Unknown,electronics,1,1000,1000,4,57.0%,Missing Customer Name
+53,2024-04-05,Unknown,Monitor,Electronics,-1,200,-200,4,57.0%,Missing Customer Name
+68,2024-04-05,customer 4,Unknown,Others,0,Unknown,0,3,43.0%,Missing Product
+123,2024-04-05,customer 4,Laptop,electronics,0,500,0,5,71.0%,Invalid Quantity
+145,2024-03-03,customer 4,Monitor,Others,1,200,200,6,86.0%,Valid Record
+38,,customer 4,Laptop,Electronics,1,1000,1000,6,86.0%,Invalid Date
+24,,customer 4,Headphones,electronics,0,500,0,5,71.0%,Invalid Date
+69,2024-03-03,Unknown,Phone,Electronics,3,200,600,5,71.0%,Missing Customer Name
+116,2024-04-05,Unknown,Unknown,Electronics,0,50,0,3,43.0%,Missing Customer Name
+98,2024-01-01,customer 4,Phone,Electronics,2,-100,-200,5,71.0%,Invalid Unit Price
+139,2024-04-05,Unknown,Laptop,Electronics,-1,500,-500,4,57.0%,Missing Customer Name
+144,,Unknown,Unknown,electronics,2,-100,-200,3,43.0%,Invalid Date
+97,2024-04-05,Unknown,Phone,electronics,0,500,0,4,57.0%,Missing Customer Name
+124,2024-01-01,Unknown,Monitor,Others,1,50,50,5,71.0%,Missing Customer Name
+70,,customer 1,Tablet,electronics,1,-100,-100,5,71.0%,Invalid Date
+93,2024-04-05,Unknown,Laptop,electronics,-1,300,-300,4,57.0%,Missing Customer Name
+3,,customer 1,Phone,electronics,1,1000,1000,6,86.0%,Invalid Date
+148,,customer 1,Laptop,electronics,1,300,300,6,86.0%,Invalid Date
+147,,customer 1,Laptop,electronics,-1,200,-200,5,71.0%,Invalid Date
+90,2024-04-05,customer 4,Unknown,Electronics,0,50,0,4,57.0%,Missing Product
+147,,Unknown,Unknown,Electronics,0,300,0,3,43.0%,Invalid Date
+148,2024-01-01,customer 1,Tablet,electronics,-1,500,-500,5,71.0%,Invalid Quantity
+96,2024-04-05,Unknown,Monitor,Others,0,200,0,4,57.0%,Missing Customer Name
+52,,Unknown,Laptop,Others,1,200,200,5,71.0%,Invalid Date
+128,,Unknown,Phone,electronics,1,300,300,5,71.0%,Invalid Date
+39,2024-04-05,Unknown,Headphones,electronics,0,300,0,4,57.0%,Missing Customer Name
+82,,Unknown,Laptop,Electronics,0,50,0,4,57.0%,Invalid Date
+104,,customer 4,Laptop,Others,3,1000,3000,6,86.0%,Invalid Date
+129,,Unknown,Tablet,electronics,3,300,900,5,71.0%,Invalid Date
+11,,Unknown,Monitor,Electronics,3,Unknown,0,4,57.0%,Invalid Date
+50,2024-03-03,Unknown,Phone,Others,-1,1000,-1000,4,57.0%,Missing Customer Name
+66,,customer 1,Unknown,electronics,0,500,0,4,57.0%,Invalid Date
+51,2024-01-01,Unknown,Monitor,Electronics,1,Unknown,0,4,57.0%,Missing Customer Name
+103,,Unknown,Headphones,Others,2,-100,-200,4,57.0%,Invalid Date
+81,,customer 4,Laptop,Electronics,1,-100,-100,5,71.0%,Invalid Date
+81,,Unknown,Headphones,Electronics,2,50,100,5,71.0%,Invalid Date
+13,,customer 1,Laptop,Electronics,2,300,600,6,86.0%,Invalid Date
+21,2024-03-03,Unknown,Monitor,electronics,0,-100,0,3,43.0%,Missing Customer Name
+87,,customer 1,Phone,Electronics,-1,300,-300,5,71.0%,Invalid Date
+28,2024-01-01,Unknown,Monitor,electronics,3,1000,3000,5,71.0%,Missing Customer Name
+35,2024-01-01,Unknown,Monitor,Electronics,0,200,0,4,57.0%,Missing Customer Name
+93,2024-01-01,Unknown,Phone,electronics,-1,-100,100,3,43.0%,Missing Customer Name
+38,,customer 4,Laptop,Electronics,1,1000,1000,6,86.0%,Invalid Date
+45,2024-03-03,customer 1,Unknown,Others,0,500,0,4,57.0%,Missing Product
+65,,customer 1,Laptop,electronics,-1,Unknown,0,4,57.0%,Invalid Date
+97,2024-04-05,Unknown,Phone,electronics,0,500,0,4,57.0%,Missing Customer Name
+40,,Unknown,Monitor,Others,2,200,400,5,71.0%,Invalid Date
+95,,customer 1,Monitor,electronics,0,300,0,5,71.0%,Invalid Date
+139,2024-01-01,Unknown,Phone,Electronics,0,200,0,4,57.0%,Missing Customer Name
