@@ -22,7 +22,7 @@ A production-grade **ETL pipeline** built with **Azure Data Factory (ADF)** that
 ## Overview
 
 <p align="center">
-  <img src="images/AzureScreenshot(2).png" width="80%">
+  <img src="images/AzureScreenshot(2).png" width="100%">
 </p>
 
 This project implements a fully automated sales data pipeline using **Azure Data Factory Mapping Data Flows**. It processes raw delimited sales records through a series of transformations — type standardization, null handling, column cleaning, date formatting, and data quality assessment — before routing each record to either a validated sales output or a flagged error table.
@@ -73,7 +73,7 @@ Ingests raw data from `DelimitedText2`. Source columns include:
 ### 2. `StandardizeTypes`
 
 <p align="center">
-  <img src="images/AzureScreenshot(1).png" width="80%">
+  <img src="images/AzureScreenshot(1).png" width="100%">
 </p>
 
 Casts all 8 columns to their appropriate types using `toString()` expressions to ensure downstream expressions operate on consistent types.
@@ -105,7 +105,7 @@ iif(
 ### 4. `HandleNulls`
 
 <p align="center">
-  <img src="images/AzureScreenshot(9).png" width="80%">
+  <img src="images/AzureScreenshot(9).png" width="100%">
 </p>
 
 Applies 8 derived column expressions to safely replace null/blank values across all columns:
@@ -145,7 +145,7 @@ Invalid records pass through the `DataQualityScore` derived column transformatio
 ### `Data Quality Score` (integer, 0–7)
 
 <p align="center">
-  <img src="images/AzureScreenshot(6).png" width="80%">
+  <img src="images/AzureScreenshot(6).png" width="100%">
 </p>
 
 Each of the 7 fields contributes 1 point if it passes validation:
@@ -163,7 +163,7 @@ iif(toDecimal(`Total Amount`) > 0, 1, 0)
 ### `Score` (string, percentage)
 
 <p align="center">
-  <img src="images/AzureScreenshot(7).png" width="80%">
+  <img src="images/AzureScreenshot(7).png" width="100%">
 </p>
 
 Human-readable percentage representation:
@@ -220,7 +220,7 @@ All flagged records are written to `ErrorTable` → `FinalSalesOutput`.
 ## Execution Results
 
 <p align="center">
-  <img src="images/AzureScreenshot(4).png" width="80%">
+  <img src="images/AzureScreenshot(4).png" width="100%">
 </p>
 
 From the latest pipeline run (`pipeline_V2`, 27/04/2026 04:22:17 EST):
@@ -237,7 +237,7 @@ From the latest pipeline run (`pipeline_V2`, 27/04/2026 04:22:17 EST):
 ### Sample Valid Output (SalesOutput)
 
 <p align="center">
-  <img src="images/AzureScreenshot(2).png" width="80%">
+  <img src="images/AzureScreenshot(2).png" width="100%">
 </p>
 
 | order_id | order_date | customer_id | product | category | quantity | unit_price | Total Amount |
@@ -249,7 +249,7 @@ From the latest pipeline run (`pipeline_V2`, 27/04/2026 04:22:17 EST):
 ### Sample Invalid Output (ErrorTable)
 
 <p align="center">
-  <img src="images/AzureScreenshot(3).png" width="80%">
+  <img src="images/AzureScreenshot(3).png" width="100%">
 </p>
 
 | order_id | order_date | customer_id | product | Data Quality Score | Score | error_reason |
